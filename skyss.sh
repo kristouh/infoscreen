@@ -61,3 +61,5 @@ echo 'Søreide' >> 'straumebro.txt'
 for i in $(seq 0 $ant_sentrum); do
 	echo "${nummer_soreide_arr[$i]} ${navn_soreide_arr[$i]} ${tider_soreide_arr[$i]}" >> 'straumebro.txt'
 done
+
+
